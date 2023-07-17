@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f5a373-438b-47a2-a18e-2520578002ba" name="Changes" comment="Whole numbers">
+    <list default="true" id="b0f5a373-438b-47a2-a18e-2520578002ba" name="Changes" comment="Floating numbers">
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689603867447</updated>
-      <workItem from="1689603870130" duration="3188000" />
+      <workItem from="1689603870130" duration="3855000" />
     </task>
     <task id="LOCAL-00001" summary="Project Setup and Variables">
       <created>1689604777003</created>
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689606302162</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Floating numbers">
+      <created>1689607732244</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689607732244</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +100,7 @@
     <MESSAGE value="Project Setup and Variables" />
     <MESSAGE value="Add readme" />
     <MESSAGE value="Whole numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Whole numbers" />
+    <MESSAGE value="Floating numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Floating numbers" />
   </component>
 </project>

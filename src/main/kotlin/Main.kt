@@ -1,11 +1,10 @@
 fun main(args: Array<String>) {
-    var myNumber: Number = 23.02 // Number can be any of whole numbers or decimal numbers
+    val charData = 'D'
 
-    // Decimal numbers
-    val myFloatNumber = 33.2f
-    val anotherNumber = 234.02
+    var isActive = true
 
-    // The difference in both is the precision in calculations (double is better)
-    println("This is a float: $myFloatNumber")
-    println("This is a double: $anotherNumber")
+    println("Is $charData active? $isActive")
+    isActive = false
+
+    println("Is $charData active? $isActive")
 }
