@@ -1,24 +1,22 @@
 fun main(args: Array<String>) {
-    val myNumber = 20;
-    var isAdult = true;
+    var type = "super-admin";
 
-    if (myNumber > 20) {
-        println("The number is greater than 20")
-    } else if (myNumber == 20) {
-        println("The number is equal to 20")
-    } else {
-        println("The number is less than 20")
+    var info = when (type) {
+        "admin", "super-admin" -> "This user is an admin"
+        "lecturer" -> "This user is a lecturer"
+        "student" -> {
+            println("just for test")
+            "This user is a student"
+        }
+        else -> "This is a normal user."
     }
 
-    if (isAdult && myNumber > 20) {
-        println("Allow this adult cos both match")
+    println(info)
+
+    var timeInSec = type.length * 2;
+
+    when (timeInSec) {
+        in 0..60 -> println("Time is less than a minute - ${timeInSec}s")
+        else -> println("Time is greater than a minute - ${timeInSec / 60}m")
     }
-
-    if (isAdult || myNumber > 20) {
-        println("Allow this adult cos any matches")
-    }
-
-    var msg = if (isAdult && myNumber == 20) "You can proceed." else "You cannot proceed."
-
-    println(msg)
 }
