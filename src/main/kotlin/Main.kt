@@ -1,22 +1,13 @@
 fun main(args: Array<String>) {
-    var type = "super-admin";
+    var sentence: String? = "This is just a sentence";
 
-    var info = when (type) {
-        "admin", "super-admin" -> "This user is an admin"
-        "lecturer" -> "This user is a lecturer"
-        "student" -> {
-            println("just for test")
-            "This user is a student"
-        }
-        else -> "This is a normal user."
-    }
+    println(sentence?.length)
 
-    println(info)
+    println(sentence!!.length * 2) // When you're absolutely certain it's not null
 
-    var timeInSec = type.length * 2;
+    sentence = null;
 
-    when (timeInSec) {
-        in 0..60 -> println("Time is less than a minute - ${timeInSec}s")
-        else -> println("Time is greater than a minute - ${timeInSec / 60}m")
-    }
+    val mainSentence = sentence ?: "This is the main sentence"
+
+    println(mainSentence)
 }
