@@ -1,10 +1,24 @@
 fun main(args: Array<String>) {
-    val charData = 'D'
+    var x = 93;
+    val y = 23;
 
-    var isActive = true
+    // Operand (x and y) are objects affected by operators
+    // Expression is an operation which evaluates to a single value
 
-    println("Is $charData active? $isActive")
-    isActive = false
+    println("x + y = ${x + y}")
+    println("x - y = ${x - y}")
+    println("x * y = ${x * y}")
+    println("x / y = ${x / y}")
+    println("x % y = ${x % y}")
 
-    println("Is $charData active? $isActive")
+    var result = x + y
+
+    result += 4
+    println("result = $result")
+
+    x = 0
+
+    println("x is ${x++}")
+    println("x is $x")
+    println("x is ${++x}")
 }
