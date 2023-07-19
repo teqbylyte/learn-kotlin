@@ -1,24 +1,24 @@
 fun main(args: Array<String>) {
-    var x = 93;
-    val y = 23;
+    val myNumber = 20;
+    var isAdult = true;
 
-    // Operand (x and y) are objects affected by operators
-    // Expression is an operation which evaluates to a single value
+    if (myNumber > 20) {
+        println("The number is greater than 20")
+    } else if (myNumber == 20) {
+        println("The number is equal to 20")
+    } else {
+        println("The number is less than 20")
+    }
 
-    println("x + y = ${x + y}")
-    println("x - y = ${x - y}")
-    println("x * y = ${x * y}")
-    println("x / y = ${x / y}")
-    println("x % y = ${x % y}")
+    if (isAdult && myNumber > 20) {
+        println("Allow this adult cos both match")
+    }
 
-    var result = x + y
+    if (isAdult || myNumber > 20) {
+        println("Allow this adult cos any matches")
+    }
 
-    result += 4
-    println("result = $result")
+    var msg = if (isAdult && myNumber == 20) "You can proceed." else "You cannot proceed."
 
-    x = 0
-
-    println("x is ${x++}")
-    println("x is $x")
-    println("x is ${++x}")
+    println(msg)
 }
