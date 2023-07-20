@@ -1,13 +1,14 @@
 fun main(args: Array<String>) {
-    var sentence: String? = "This is just a sentence";
+    sayHello("Lyte", 29)
+    sayHello("Chima", 12)
+}
 
-    println(sentence?.length)
+fun  sayHello(name: String, age: Int) {
+    val msg = when (age) {
+        in 0..18 -> "You're too young for this.";
+        in 19 .. 65 -> "Your age fits and you can proceed."
+        else -> "Can not find use case."
+    }
 
-    println(sentence!!.length * 2) // When you're absolutely certain it's not null
-
-    sentence = null;
-
-    val mainSentence = sentence ?: "This is the main sentence"
-
-    println(mainSentence)
+    println("Hell $name! $msg")
 }
