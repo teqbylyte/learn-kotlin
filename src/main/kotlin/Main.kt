@@ -1,8 +1,14 @@
 fun main(args: Array<String>) {
-    println(greeting("Lyte"))
-    println(greeting(msg = "Good day", name = "Chima"))
+    println(sum(2, 44, 34, 22, 23))
 }
 
-fun greeting(name: String, msg: String = "Hello"): String {
-    return "$msg $name";
+fun sum(vararg numbers: Int): String {
+    var result = 0;
+
+    for (number in numbers) {
+        println(number)
+        result += number;
+    }
+
+    return  result.toString();
 }
