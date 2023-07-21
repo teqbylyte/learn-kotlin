@@ -1,14 +1,17 @@
 fun main(args: Array<String>) {
-    sayHello("Lyte", 29)
-    sayHello("Chima", 12)
+    var a = 12
+    var b = 4
+
+    var max = getMax(a, b)
+
+    println(getMax(a, b))
+    println(max)
 }
 
-fun  sayHello(name: String, age: Int) {
-    val msg = when (age) {
-        in 0..18 -> "You're too young for this.";
-        in 19 .. 65 -> "Your age fits and you can proceed."
-        else -> "Can not find use case."
-    }
-
-    println("Hell $name! $msg")
+fun  getMax(a: Int, b: Int): Int
+{
+    return if (a > b) a else b;
 }
+
+// Function overloading. Using the same function name but when different parameter types are used or the operation is different.
+fun getMax(x: Double, y: Double) = if (x > y) x else y

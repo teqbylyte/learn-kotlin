@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f5a373-438b-47a2-a18e-2520578002ba" name="Changes" comment="Null case">
+    <list default="true" id="b0f5a373-438b-47a2-a18e-2520578002ba" name="Changes" comment="Start functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -67,7 +67,8 @@
       <updated>1689603867447</updated>
       <workItem from="1689603870130" duration="4664000" />
       <workItem from="1689712319195" duration="3061000" />
-      <workItem from="1689782667701" duration="9992000" />
+      <workItem from="1689782667701" duration="13158000" />
+      <workItem from="1689970218024" duration="1100000" />
     </task>
     <task id="LOCAL-00001" summary="Project Setup and Variables">
       <created>1689604777003</created>
@@ -139,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689788809149</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Start functions">
+      <created>1689892900351</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689892900351</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +163,7 @@
     <MESSAGE value="if &amp; else conditionals" />
     <MESSAGE value="When condition" />
     <MESSAGE value="Null case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Null case" />
+    <MESSAGE value="Start functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start functions" />
   </component>
 </project>
