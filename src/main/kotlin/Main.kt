@@ -1,21 +1,36 @@
 fun main(args: Array<String>) {
 
-    // loop with a range of numbers
-    for (i in 1..10) {
+    var i = 0
+    while (i < 5) {
         println("i = $i")
+        i++
+
+        if (i == 4) break
     }
 
-    println("\n");
+    println("=================\n")
 
-    // in range but lesser than the last number
-    for (j in 2..<8) {
-        println("j = $j")
-    }
+    i = 10;
 
-    println("\n");
+    do {
+        i--
 
-    // in range from higher to lower and skip by 2
-    for (k in 30 downTo 20 step 2) {
-        println("k = $k")
+        if (i in 4..6) continue
+        println("i is $i")
+
+    } while (i in 1..10)
+
+    // Continue and break also work in for loop
+
+    println("=================\n")
+
+    parent@ while (i < 10) {
+        println("i is $i")
+
+        while (i < 5) {
+            if (i == 2) break@parent
+            println("inner i is $i")
+            i++
+        }
     }
 }

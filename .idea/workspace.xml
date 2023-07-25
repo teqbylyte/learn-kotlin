@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f5a373-438b-47a2-a18e-2520578002ba" name="Changes" comment="Function: Variable arguments.">
+    <list default="true" id="b0f5a373-438b-47a2-a18e-2520578002ba" name="Changes" comment="&#10;for loop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -69,7 +69,8 @@
       <workItem from="1689712319195" duration="3061000" />
       <workItem from="1689782667701" duration="13158000" />
       <workItem from="1689970218024" duration="4304000" />
-      <workItem from="1690063716987" duration="395000" />
+      <workItem from="1690063716987" duration="1922000" />
+      <workItem from="1690289007627" duration="1990000" />
     </task>
     <task id="LOCAL-00001" summary="Project Setup and Variables">
       <created>1689604777003</created>
@@ -176,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689973398277</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="&#10;for loop">
+      <created>1690064251699</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1690064251699</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +204,7 @@
     <MESSAGE value="Function: Return &amp; Overloading" />
     <MESSAGE value="Function: Named arguments" />
     <MESSAGE value="Function: Variable arguments." />
-    <option name="LAST_COMMIT_MESSAGE" value="Function: Variable arguments." />
+    <MESSAGE value="&#10;for loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;for loop" />
   </component>
 </project>
