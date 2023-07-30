@@ -1,36 +1,31 @@
 fun main(args: Array<String>) {
+    // Ones an array is defined, the size cannot be changed, therefore immutable.
+    val names = arrayOf("Lyte", "Canaan", "John")
 
-    var i = 0
-    while (i < 5) {
-        println("i = $i")
-        i++
+    // An array can also contain multiple types of elements unless explicitly defined.
+    val elements = arrayOf("Name", 2, true, 23, 42, 54, names)
 
-        if (i == 4) break
-    }
+    elements[1] = "two"
+    println(names[0])
+    println(elements[1])
 
-    println("=================\n")
-
-    i = 10;
-
-    do {
-        i--
-
-        if (i in 4..6) continue
-        println("i is $i")
-
-    } while (i in 1..10)
-
-    // Continue and break also work in for loop
-
-    println("=================\n")
-
-    parent@ while (i < 10) {
-        println("i is $i")
-
-        while (i < 5) {
-            if (i == 2) break@parent
-            println("inner i is $i")
-            i++
+    // loop through an array
+    for (e in elements) {
+        if (e is Number) {
+            println(e)
         }
     }
+
+    println("The number of elements in the array is ${names.size}")
+
+    println(minOrMax(arrayOf(5, 44, 390, 90, 20), true))
+}
+
+fun minOrMax(elements: Array<Int>, getMin: Boolean = false): Int
+{
+    if (getMin) {
+        return elements.min()
+    }
+
+    return elements.max();
 }
