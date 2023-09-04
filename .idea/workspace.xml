@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f5a373-438b-47a2-a18e-2520578002ba" name="Changes" comment="Arrays">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/User.kt" afterDir="false" />
+    <list default="true" id="b0f5a373-438b-47a2-a18e-2520578002ba" name="Changes" comment="Start classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/User.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
       <workItem from="1690382301250" duration="1072000" />
       <workItem from="1690746738271" duration="1426000" />
       <workItem from="1690796976628" duration="1768000" />
-      <workItem from="1693768617340" duration="2351000" />
+      <workItem from="1693768617340" duration="3780000" />
     </task>
     <task id="LOCAL-00001" summary="Project Setup and Variables">
       <created>1689604777003</created>
@@ -212,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690747566437</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Start classes">
+      <created>1693814139873</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1693814139873</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +243,7 @@
     <MESSAGE value="While and Do-while | continue and break" />
     <MESSAGE value="Arrays challenge" />
     <MESSAGE value="Arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays" />
+    <MESSAGE value="Start classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start classes" />
   </component>
 </project>
