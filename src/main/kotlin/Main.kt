@@ -1,10 +1,20 @@
 fun main(args: Array<String>) {
-    val user = User("charity", "onyema");
+    val db1 = Db.connection();
 
-    user.printWithPrefix("Mr.")
-    println(user.nameLength())
+    println("line 1")
 
-    user.fullName = "Lyte Osasu"
+    val db2 = Db.connection()
 
-    println(user.fullName)
+    println("line 2")
+
+    val person = User("lyte", "onyema")
+
+    println("line 3")
+
+    val config = Config
+    println("line 4")
+
+    val config2 = Config
+
+    println("line 5")
 }

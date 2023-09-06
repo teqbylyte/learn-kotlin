@@ -6,6 +6,8 @@ class User(var firstName: String, var lastName: String) {
         firstName = firstName.uppercase();
         lastName = lastName.uppercase()
 
+        val db = Db.connection();
+
         println("This is the class for $firstName.")
     }
 

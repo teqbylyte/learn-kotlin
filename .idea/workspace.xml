@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0f5a373-438b-47a2-a18e-2520578002ba" name="Changes" comment="Use init blocks and class properties">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/User.kt" afterDir="false" />
+    <list default="true" id="b0f5a373-438b-47a2-a18e-2520578002ba" name="Changes" comment="Companion object &amp; Singleton">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Db.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Db.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,7 +83,8 @@
       <workItem from="1690746738271" duration="1426000" />
       <workItem from="1690796976628" duration="1768000" />
       <workItem from="1693768617340" duration="4668000" />
-      <workItem from="1693856360510" duration="525000" />
+      <workItem from="1693856360510" duration="2254000" />
+      <workItem from="1693982238674" duration="3073000" />
     </task>
     <task id="LOCAL-00001" summary="Project Setup and Variables">
       <created>1689604777003</created>
@@ -226,7 +233,21 @@
       <option name="project" value="LOCAL" />
       <updated>1693816268433</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Getters and setters">
+      <created>1693857736651</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1693857736651</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Companion object &amp; Singleton">
+      <created>1693987286486</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1693987286486</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +273,8 @@
     <MESSAGE value="Arrays" />
     <MESSAGE value="Start classes" />
     <MESSAGE value="Use init blocks and class properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use init blocks and class properties" />
+    <MESSAGE value="Getters and setters" />
+    <MESSAGE value="Companion object &amp; Singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="Companion object &amp; Singleton" />
   </component>
 </project>
